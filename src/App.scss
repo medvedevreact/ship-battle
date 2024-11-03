@@ -74,11 +74,6 @@
       height: 25px;
     }
 
-    @media (hover: hover) {
-      &__cell.hover {
-        background-color: #87ceeb;
-      }
-    }
     &--ship {
       background-color: blue;
     }
@@ -161,5 +156,10 @@
   }
   to {
     opacity: 1;
+  }
+}
+@media (hover: hover) {
+  .board__cell:hover {
+    background-color: #87ceeb;
   }
 }
